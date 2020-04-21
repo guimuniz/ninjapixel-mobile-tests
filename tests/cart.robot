@@ -28,13 +28,3 @@ Comprar produto
     Finalizo a compra com Paypal
     Devo ver um popup com a mensagem:
     ...    Você pagou seu pedido atraves do PayPal! Entregaremos sua encomenda o mais rápido possível!
-
-
-*** Keywords ***
-
-Finalizo a compra com Paypal
-    # Automatizar o checkout no Paypal
-    # user: test@qaninja.io
-    # pass: qaninja123456
-    # Desafio implementar esta Keyword
-    # Dica: Use Click Text ou Xpath
