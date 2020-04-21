@@ -16,5 +16,13 @@ Devo ver "${expect_user}" na tela minha conta
     Wait Until Page Contains Element     ${BT_ACCOUNT}       ${timeout}
 
     Click Element   ${BT_ACCOUNT}
-    
+
     Wait Until Page Contains    ${expect_user}      ${timeout}
+
+Tentar logar
+    [Arguments]     ${email}    ${senha}     ${saida}
+
+    Acesso a tela de login
+    Submeto minhas credencias "${email}" e "${senha}"
+    Devo ver um popup com a mensagem:
+    ...     ${saida}

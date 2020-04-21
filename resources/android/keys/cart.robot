@@ -22,3 +22,19 @@ Adiciono este item ao carrinho
     Wait Until Page Contains    ${product}
     Click Text                  ADICIONAR AO CARRINHO
 
+Tenho o seguinte produto no meu carrinho:
+    [Arguments]         ${product}      ${category}
+
+    Acesso a categoria "${category}"
+    Escolho o produto "${product}"
+    Adiciono este item ao carrinho
+
+    Wait Until Page Contains Element    ${POPUP_OK}
+    Click Element                       ${POPUP_OK}
+
+    Go Back
+    Wait Until Page Contains        ${product}
+    Go Back
+
+    components.Acessa Carrinho
+    Click Element                   ${REFRESH_CART}
