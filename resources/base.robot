@@ -35,7 +35,7 @@ Start Android
     ...                 app=${apk}
     ...                 automationName=uiautomator2
     ...                 autoGrantPerssions=true
-    ...                 # udid=emulator-5554
+                        # udid=emulator-5554
 
 
 Start iOS
