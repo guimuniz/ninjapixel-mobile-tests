@@ -24,8 +24,8 @@ ${PROGRESS_BAR}     id=qaninja.com.pixel:id/progressBar2
 ${MENU_LIST}        id=qaninja.com.pixel:id/ibnt_icon_iv
 
 # PayPal
-${INPUT_PAYPAL_EMAIL}     accessibility_id=Email
-${INPUT_PAYPAL_PASS}      accessibility_id=Password
-${BT_PAYPAL_LOGIN}        xpath=/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout
-${BT_PAY}                 xpath=/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]
-${PURCHASE_VALUE}         xpath=/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.TableLayout[1]/android.widget.TableRow/android.widget.TextView[2]
+${INPUT_PAYPAL_EMAIL}   accessibility_id=Email
+${INPUT_PAYPAL_PASS}    accessibility_id=Password
+${BT_PAYPAL_LOGIN}      xpath=//*[@text='Log In']
+${BT_PAY}               xpath=//*[@text='Pay']
+${PURCHASE_VALUE}       xpath=/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.TableLayout[1]/android.widget.TableRow/android.widget.TextView[2]
