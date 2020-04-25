@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ../resources/android.robot
+Resource    ../resources/base.robot
 
 Test Setup      Abrir App
 Test Teardown   Fechar App
