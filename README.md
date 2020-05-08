@@ -1,7 +1,9 @@
-
-![giphy](https://media.giphy.com/media/ZeWo3suss8esmCaBvh/giphy.gif) 
-
-# 🗡 Ninjapixel <strong>mobile</strong> tests
+<h1 align="center">
+  🗡 Ninjapixel mobile tests 🗡
+</h1>
+<p align="center">
+  <img alt="Demo" src="https://media.giphy.com/media/ZeWo3suss8esmCaBvh/giphy.gif">
+</p>
 
 ## 📱 Technologies
 
